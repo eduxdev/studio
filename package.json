@@ -4,7 +4,7 @@
   "main": "script.js",
   "type": "module",
   "scripts": {
-    "css": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/styles.css --watch"
+    "css": "tailwindcss -i ./public/assets/css/tailwind.css -o ./public/assets/css/styles.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.6",
+    "flyonui": "^2.1.0",
     "tailwindcss": "^4.1.6"
   }
 }

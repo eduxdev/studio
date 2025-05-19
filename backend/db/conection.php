@@ -1,6 +1,6 @@
 <?php
 
-$conexion = mysqli_connect("localhost","root","","studio");
+$conexion = mysqli_connect("localhost","root","","rifas");
 if (!$conexion) {
     echo"Conexion Fallida";
 }
